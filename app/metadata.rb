@@ -1,6 +1,6 @@
 name             'app'
-maintainer       'YOUR_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Suhas'
+maintainer_email 'suhasg87@gmail.com'
 license          'All rights reserved'
 description      'Installs/Configures app'
 long_description 'Installs/Configures app'
