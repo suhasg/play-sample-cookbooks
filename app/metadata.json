@@ -1,0 +1,30 @@
+{
+  "name": "app",
+  "version": "2.4.0",
+  "description": "",
+  "long_description": ""
+  "maintainer": "Suhas",
+  "maintainer_email": "suhasg87@gmail.com",
+  "license": "Apache 2.0",
+  "platforms": {
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "deploy": "Deploys app and creates symlink"
+  }
+}
