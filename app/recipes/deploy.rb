@@ -3,7 +3,7 @@
 deploy_path = "/srv/www/immweb/" #path where the application needs to be deployed
 repository_path = "/home/jenkin/code" #path where the application resides (GIT or SVN or GITLAB)
 
-script "Deploy code to document root" do
+bash "deploy_to_document_root" do
 	code <<-EOH
 	DAT=`date '+%Y%m%d%H%M%S'`
 	mkdir -p #{deploy_path}/releases/$DAT
