@@ -5,6 +5,7 @@ repository_path = "/home/jenkin/code" #path where the application resides (GIT o
 
 bash "deploy_to_document_root" do
 	code <<-EOH
+	rm -rvf #{deploy_path}/current
 	DAT=`date '+%Y%m%d%H%M%S'`
 	mkdir -p #{deploy_path}/releases/$DAT
 	mkdir -p #{deploy_path}/current
