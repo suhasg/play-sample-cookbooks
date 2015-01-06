@@ -6,7 +6,7 @@ repository_path = "/home/jenkin/code" #path where the application resides (GIT o
 deploy deploy_path do
 	user "deploy"
 	group "apache"
-	repository repository_path
+	repository_cache repository_path
 	symlink_before_migrate ({})
 	symlinks ({})
 
