@@ -11,7 +11,7 @@ mysql_dbhost = "immdevdb.ciguidpxtyhi.eu-west-1.rds.amazonaws.com"
 
 bash "deploy_to_document_root" do
 	code <<-EOH
-	for file in #{sql_scripts_path}/*
+	for file in #{sql_scripts_path}/*.sql
 	do
 	    mysql -u #{mysql_username} -p#{mysql_password} -h #{mysql_dbhost} #{mysql_dbname} < $file
 	done
