@@ -2,10 +2,10 @@
 
 deploy_path = "/srv/www/immweb/" #path where the application needs to be deployed
 repository_path = "/home/jenkin/code" #path where the application resides (GIT or SVN or GITLAB)
-sql_scripts_path = "/srv/www/immweb/sql/2014/en"
+sql_scripts_path = "/srv/www/immweb/current/imm-web/sql/2015"
 
 mysql_username = "AeriaDBUser"
-mysql_password = "B3r1!n(0g4me$"
+mysql_password = "B3r1n0g4mes"
 mysql_dbname = "ImmDev"
 mysql_dbhost = "immdevdb.ciguidpxtyhi.eu-west-1.rds.amazonaws.com"
 
